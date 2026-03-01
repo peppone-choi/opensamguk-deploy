@@ -71,7 +71,7 @@ services:
       DB_PASSWORD: ${DB_PASSWORD}
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      DOCKER_NETWORK: opensam-net
+      DOCKER_NETWORK: opensamguk-deploy_opensam-net
       DOCKER_IMAGE_PREFIX: ghcr.io/peppone-choi/opensam-game
       ADMIN_BOOTSTRAP_ENABLED: ${ADMIN_BOOTSTRAP_ENABLED:-true}
       ADMIN_LOGIN_ID: ${ADMIN_LOGIN_ID:-admin}
